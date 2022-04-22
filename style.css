@@ -131,5 +131,53 @@
     align-self: flex-end;
 
 }
+.main-fourth-container{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.call-to-action{
+    flex:1;
+    width:800px;
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+    border-width:0;
+    justify-content: space-around;
+}
+
+.left{
+    padding: 20px;
+    width:auto;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.right{
+    flex: 1;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cta-button-two{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: Helvetica;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 3px solid #F9FAF8;
+    padding:10px;
+    width: 100px;
+}
 
 
